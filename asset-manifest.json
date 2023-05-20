@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/static/js/main.aaf7090f.js",
-    "index.html": "/index.html",
-    "main.aaf7090f.js.map": "/static/js/main.aaf7090f.js.map"
+    "main.js": "/Git-Hub-profile-viewer/static/js/main.aaf7090f.js",
+    "index.html": "/Git-Hub-profile-viewer/index.html",
+    "main.aaf7090f.js.map": "/Git-Hub-profile-viewer/static/js/main.aaf7090f.js.map"
   },
   "entrypoints": [
     "static/js/main.aaf7090f.js"
