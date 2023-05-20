@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-bottom: -21px;
+}
+.loader{
+  padding: 51px 104px;
+  margin-bottom: -23px;
+  margin-top: 14px;
+}
+@keyframes loadingAnimation {
+  0% { opacity: 0.3; }
+  50% { opacity: 1; }
+  100% { opacity: 0.3; }
+}
+
+.loading {
+  animation: loadingAnimation 1s infinite;
+}
+
+.dot-1, .dot-2, .dot-3 {
+  animation: loadingAnimation 1s infinite;
+  animation-delay: 0.2s;
+  display: inline-block;
+  opacity: 0.3;
+}
+
+.dot-2 {
+  animation-delay: 0.4s;
+}
+
+.dot-3 {
+  animation-delay: 0.6s;
+}
+
+
+.search-input {
+  width: 100%;
+  padding: 13px;
+  font-size: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 6.4);
+    border-width: 0.5px;
+    border-radius: 13px;
+}
+
+
+.search-button {
+  margin-left: 10px;
+  padding: 12px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3.25px;
+}
+
+.datacomponent {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.user-information {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.user-details {
+  margin-left: 20px;
+}
+
+.head {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.user-stats {
+  margin-left: 92px;
+  display: flex;
+  flex-direction: column;
+}
+
+#b {
+  margin-top: auto;
+}
+.repos-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 69px;
+  margin-right: 34px;
+  border-radius: 3.25px;
+}
+
+.repository-list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repository-list h3 {
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+
+.repository-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 85px;
+}
+
+.repository-list li {
+  margin-bottom: 10px;
+}
+
+.repository-list li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.repository-list li a:hover {
+  text-decoration: underline;
+}
