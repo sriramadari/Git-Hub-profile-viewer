@@ -2,7 +2,7 @@
   "name": "github-profile-viewer",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sriramadari.github.io",
+  "homepage": "https://sriramadari.github.io/Git-Hub-profile-viewer",
   "dependencies": {
     "gh-pages": "5.0.0",
     "@testing-library/jest-dom": "^5.16.5",
